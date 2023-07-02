@@ -1,0 +1,30 @@
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  thead {
+    tr {
+      background-color: #f0f0f0;
+      td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+        font-weight: bold;
+        color: #1976d2;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+
+      &:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+    }
+  }
+}
